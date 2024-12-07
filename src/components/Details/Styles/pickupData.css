@@ -1,0 +1,41 @@
+.pickup-container {
+    border: solid 2px #3E4041;
+    background-color: #0F1113;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    position: relative;
+  }
+  
+  .pickup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .pickup-header h3 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 500;
+  }
+  
+  .pickup-details {
+    font-weight: 550;
+    font-size: 15;
+    display: flex;
+    text-align: start;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid #444;
+  }
+  
+  .pickup-details p {
+    margin: 5px 0;
+    line-height: 1.5;
+  }
+  
